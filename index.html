@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="C:\Users\hp\Pictures\resume.png">
+</head>
+<body>
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">MyResume</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <h1>Hello, I'm <span>Imran Khan</span></h1>
+    <p>Full Stack Developer</p>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <h2 class="title">About Me</h2>
+    <p>I build modern web apps using Java, Spring Boot and frontend technologies.</p>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section">
+    <h2 class="title">Skills</h2>
+
+    <div class="skills">
+
+        <div class="skill">
+            <span>HTML5</span>
+            <div class="bar"><div class="fill html">90%</div></div>
+        </div>
+
+        <div class="skill">
+            <span>CSS3</span>
+            <div class="bar"><div class="fill css">85%</div></div>
+        </div>
+
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="bar"><div class="fill js">80%</div></div>
+        </div>
+
+        <div class="skill">
+            <span>Java</span>
+            <div class="bar"><div class="fill java">75%</div></div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Projects with Lightbox -->
+<section id="projects" class="section">
+    <h2 class="title">Projects</h2>
+
+    <div class="gallery">
+        <a href="#p1"><img src="https://via.placeholder.com/200" alt=""></a>
+        <a href="#p2"><img src="https://via.placeholder.com/200" alt=""></a>
+        <a href="#p3"><img src="https://via.placeholder.com/200" alt=""></a>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="p1" class="lightbox">
+        <a href="#" class="close">×</a>
+        <img src="https://via.placeholder.com/600">
+        <p>Financial Tracker</p>
+    </div>
+
+    <div id="p2" class="lightbox">
+        <a href="#" class="close">×</a>
+        <img src="https://via.placeholder.com/600">
+        <p>Login System</p>
+    </div>
+
+    <div id="p3" class="lightbox">
+        <a href="#" class="close">×</a>
+        <img src="https://via.placeholder.com/600">
+        <p>Portfolio Website</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Resume</p>
+</footer>
+
+</body>
+</html>
